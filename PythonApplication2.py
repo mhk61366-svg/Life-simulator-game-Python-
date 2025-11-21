@@ -9,16 +9,16 @@ def profile(user_info):
 def Eating(energy,mood,hunger):
     print("\n--- Eating ---")
     print("The Food was Delicious")
-    energy -= 10
-    hunger -= 10
+    energy -= 15
+    hunger -= 15
     return energy,mood,hunger
 
 def sleep(energy,mood,hunger):
     print("\n--- Sleeping ---")
     print("Good night")
-    energy += 10
-    mood -= 10
-    hunger += 10
+    energy += 15
+    mood -= 15
+    hunger += 15
     return energy,mood,hunger
 
 def mini_game(energy,mood,hunger):
@@ -68,9 +68,9 @@ def mini_game(energy,mood,hunger):
     else:
         print("Good Bye")
     
-    energy -= 10
-    mood += 10
-    hunger += 10
+    energy -= 20
+    mood += 20
+    hunger += 20
     return energy,mood,hunger
 
 def chatting(energy,mood,hunger):
@@ -87,9 +87,9 @@ def chatting(energy,mood,hunger):
         else:
             print("AI Bestie: I don't understand.") # Handle unrecognized input
             print("Chatting with you is fun and I learn alot of things")
-        energy -= 10
-        mood += 10
-        hunger += 10
+        energy -= 15
+        mood += 15
+        hunger += 15
         return energy,mood,hunger
 
 user_info = dict()
