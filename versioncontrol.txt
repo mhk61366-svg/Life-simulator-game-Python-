@@ -1,0 +1,43 @@
+Version Control
+	Version control is a system that records changes to files over time.
+
+It lets you track history, revert to earlier
+ versions, and collaborate with others without overwriting each other’s work.
+
+Think of it like a “time machine” for your
+ code or documents.
+
+Git
+
+	Git is a version control tool.
+
+It runs locally on your computer and keeps track of changes in your project.
+
+Key 
+features:
+
+
+Commits: snapshots of your project at a point in time.
+
+
+Branches: separate lines of development (like parallel 
+universes for your code).
+
+
+Merging: combining changes from different branches.
+
+GitHub
+
+GitHub is a cloud platform that hosts Git repositories online.
+
+It adds collaboration features on top of Git:
+
+
+Share your code with others.
+
+Work together using pull requests and issues.
+
+Store projects safely in the cloud.
+
+
+In short: Git = the tool, GitHub = the place to share and collaborate using Git.
