@@ -96,13 +96,13 @@ user_info = dict()
 user_info = profile(user_info) # Assign the returned dictionary to user_infoenergy = 40mood = 40hunger = 40while (energy > 0 and mood > 0 and hunger < 100):
 print("\n--- Main Menu ---")
 print("What Do you Wish to Do?")
-print("1. Send me to bed")
-print("2. Chat with me")
-print("3. Play a mini game")
-print("4. Feed me")
-print("5. View profile info")
-print("6. View Attributes")
-print("7. Exit")
+print("-----1. Send me to bed-----")
+print("-----2. Chat with me-----")
+print("-----3. Play a mini game-----")
+print("-----4. Feed me-----")
+print("-----5. View profile info-----")
+print("-----6. View Attributes-----")
+print("-----7. Exit-----")
 try:
     choice = int(input("Enter your choice (1-7): ")) # Add prompt for user input
 except ValueError: # Catch ValueError for non-integer input
