@@ -76,7 +76,8 @@ def mini_game(energy,mood,hunger):
 def chatting(energy,mood,hunger):
     print("\n--- Chatting ---")
     print("Hello this is your AI bestie")
-    AI_responses = {"hi":"Hello how are you doing","what is your favourite sports":"Tennis","which activity do you love":"singing poems"}
+    AI_responses = {"hi":"Hello how are you doing","what is your favourite sports":"Tennis","which activity do you love":"singing poems"
+                    ,"what is your favorite food":"Tacos","do have interest in politics":"Yeah!!","Do you hate maths":"Defienetly, maths too boring"}
     response = "" # Initialize response
     while(response.lower() != "bye"): # Convert response to lowercase for case-insensitive comparison
         response = input("You: ") # Add prompt for user input
