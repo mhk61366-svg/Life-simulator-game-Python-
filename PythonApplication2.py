@@ -76,7 +76,7 @@ def mini_game(energy,mood,hunger):
 def chatting(energy,mood,hunger):
     print("\n--- Chatting ---")
     print("Hello this is your AI bestie")
-    AI_responses = {"hi":"Hello how are you doing","what is your favourite sports":"Tennis","which activity do you love":"singing poe
+    AI_responses = {"hi":"Hello how are you doing","what is your favourite sports":"Tennis","which activity do you love":"singing poems"}
     response = "" # Initialize response
     while(response.lower() != "bye"): # Convert response to lowercase for case-insensitive comparison
         response = input("You: ") # Add prompt for user input
@@ -86,11 +86,12 @@ def chatting(energy,mood,hunger):
             print("AI Bestie:", AI_responses.get(response.lower())) # Get response using lowercase key
         else:
             print("AI Bestie: I don't understand.") # Handle unrecognized input
-            print("Chatting with you is fun and I learn alot of things")
-        energy -= 15
-        mood += 15
-        hunger += 15
-        return energy,mood,hunger
+
+    print("Chatting with you is fun and I learn alot of things")
+    energy -= 15
+    mood += 15
+    hunger += 15
+    return energy,mood,hunger
 
 user_info = dict()
 user_info = profile(user_info) # Assign the returned dictionary to user_infoenergy = 40mood = 40hunger = 40while (energy > 0 and mood > 0 and hunger < 100):
